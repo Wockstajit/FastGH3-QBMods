@@ -8,6 +8,7 @@ for %%Q in (*.q) do node ..\QBC\QBC.js c "%%Q" -g gh3
 for %%A in (
 	whammy_120FPS
 	eval
+	gh5_touch_glow
 ) do copy "%%A.qb.xen" "..\..\..\DATA\MODS\%%A.qb.xen" /y >nul
 :: prepackage for the repo just because
 for %%A in (
